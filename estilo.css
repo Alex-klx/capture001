@@ -1,0 +1,225 @@
+@charset "utf-8";
+@font-face{
+	font-family: "prime";
+	src:url("Prime-Regular.otf");
+	font-family:"Andallan";
+	src:url("Andallan-400.ttf");
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	background-color:#e3e3e3;
+}
+/*--------------------------------------------Cabecalho*/
+.cabecalho{
+	background-color: white;
+	width: 100%;
+	height: 50px;
+}
+.bot-whats{
+	background-color: white;
+	position: relative;
+	display: block;
+	height: 50px;
+	width: 200px;
+	margin: 0 auto;
+	/*float: right;
+	right: 10%;
+	*/
+}
+.bot-whats p{
+	border:2px black solid;
+	background-color: white;
+	width: 200px;
+	text-align: center;
+	border-radius: 6px;
+	position: absolute;
+	display: block;
+	top: 50%;
+	transform: translate(-0%, -50%);
+	font-size: 15pt;
+	font-family: Arial black, sans-serif;
+
+}
+/*--------------------------------------------Logo*/
+.bot-logo{
+	background-color: white;
+	position: relative;
+	height: 50px;
+	width: 200px;
+	left: 10%;
+}
+.bot-logo p{
+	border:2px black solid;
+	background-color: white;
+	width: 200px;
+	text-align:center;
+	border-radius:6px;
+	position: absolute;
+	display: block;
+	top: 50%;
+	transform: translate(-0%, -50%);
+	font-size: 15pt;
+	font-family: Arial black, sans-serif;
+
+}
+/*--------------------------------------------Base*/
+.base{
+	width: 1000px;
+	height: 1024px;
+	margin: 5px auto 0px auto;
+	position: relative;
+	/*border: 2px black solid;*/
+}
+.cont{
+	position: relative;
+	display: block;
+	float: left;
+	width: 68%;
+	height: 1024px;
+	background-image: linear-gradient(180deg,#01ffff,white 20%);
+	padding:10px;
+}
+/* ------------------------aside late */
+.late{
+	border-radius: 11px;
+	position: relative;
+	display: block;
+	float: right;
+	width: 29%;
+	height: 1024px;
+	background-image:linear-gradient(170deg,#01ffff,white 18%);
+}
+
+/*-------------------------------------alex*/
+.late .xl{
+	position: relative;
+	display: block;
+	text-align: center;
+	background:transparent;
+	top: 10px;
+}
+.late .xl img{
+	width: 90px;
+	position: relative;
+	display: block;
+	margin: 0 auto;
+	border-radius: 50%;
+	border:solid 3px #e3e3e3;
+	box-shadow:3px 3px 5px rgba(227, 227, 227, .8);
+}
+.x1-tx h1{
+	background: transparent;
+	font-family: Futura BK BT;
+	text-decoration: underline;
+}
+.x1-tx p{
+	background: transparent;
+	font-family: arial, sans-serif;
+	font-size: 11pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.x1-tx{
+	background-color: rgba(227, 227, 227, .8);
+	border-radius: 8px;
+	width: 92%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 5px;
+}
+.late .tlb{
+	text-align:center;
+	background-color: rgba(227, 227, 227, .8);
+	border-radius: 8px;
+	width: 92%;
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	top: 23px;
+	font-family: arial, sans-serif;
+	font-size: 11pt;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/* ---------------------------------aside late */
+.cont h1{
+	background: transparent;
+	font-family: "prime";
+	font-size: 15.5pt;
+	text-align: center;
+}
+.txt-not{
+	position: relative;
+	display: block;
+	float: left;
+	top: 50%;
+	transform: translate(0% , -50%);
+	background: transparent;
+	font-family:Futura BK BT;
+	font-size: 13pt;
+}
+.cont .not img{
+	position: relative;
+	display: block;
+	height: 252px;
+	background: transparent;
+	float: right;
+}
+.cont .not{
+	background: transparent;
+	height: 250px;
+	position: relative;
+	top: 10px;
+}
+/* -------------------------------separadores
+.not::after{
+	content:'';
+	display: block;
+	position: relative;
+	width: 80%;
+	height: 5px;
+	background-color:#e3e3e3;
+	margin: 0 auto;
+	top: -50px;
+}----------------------------separadores*/
+/* -------------------------------area de download aside*/
+.downld{
+			border: 1px solid #00a6ff;
+			margin: 0 auto;
+
+			position: relative;
+			display: block;
+			width: 92%;
+			text-align:center;
+			border-radius:8px;
+			top: 30px;
+			background: transparent;
+		}
+		.downld-h2{
+			border: 1px solid #00a6ff;
+
+			font-size: 13pt;
+			font-family: arial black;
+			background-color: #00a6ff;
+			color: white;
+			border-top-right-radius:8px;
+			border-top-left-radius:8px;
+			margin: 0px;
+		}
+		.downld-ul{
+			position: relative;
+			display: block;
+			left: 20px;
+			background: transparent;
+		}
+		.downld-ul li{
+			position: relative;
+			text-align: left;
+			font-family: arial, sans-serif;
+			font-size: 10pt;
+			background:transparent;
+			padding: 2.5px;
+		}
+		/* -------------------------------area de download aside*/
